@@ -1,0 +1,84 @@
+/* Responsive Styles 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media only screen and (max-width: 1199px) {
+	.allnews .follow-widget ul li,
+	.news-details .follow-widget ul li,
+	.catagory .follow-widget ul li {
+		width: 31.4%;
+	}
+	.oth-news .newsletter-widget .widget-layer,
+	.news-details .newsletter-widget .widget-layer {
+		padding: 12px 20px;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.menu-area .menu-content ul li a {
+		padding: 15px 0px;
+	}
+	.menu-area .menu-content ul li.static ul.mega-menu {
+		left: 7%;
+	}
+	.menu-area .menu-content {
+		padding-bottom: 10px;
+	}
+	.slider-area .padding-fix-r {
+		padding-right: 15px;
+	}
+	.slider-area .owl-slider {
+		margin-bottom: 15px;
+	}
+	.slider-area .slider-fix {
+	    padding-left: 15px;
+	}
+	.slider-area .slider-fix .slider-sidebar .sidebar-layer {
+		width: 100%;
+	}
+	.allnews .tab-widget .tab-content .tab-pane .comment-content,
+	.news-details .tab-widget .tab-content .tab-pane .comment-content {
+	    padding-bottom: 50px;
+	}
+	.footer-twitter {
+		margin-top: 30px;
+	}
+	footer .footer-c .footer-twitter ul li i {
+		height: 5px;
+	}
+	.padding-fix-r {
+		padding-right: 15px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.footer-about {
+		margin-bottom: 50px;
+	}
+}
+
+@media only screen and (max-width: 575px) {
+	.coming-soon .cs-content h1 {
+		width: 100%;
+	}
+	.coming-soon .cs-content h1:before {
+		width: 170px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.p-heading .page-bg .p-content {
+		width: 200px;
+	}
+	.news-details .news-comment .comment-box2 {
+		margin-left: 20px;
+	}
+	.contact .contact-info h4:before {
+		width: 190px;
+	}
+	.about .team h4:before {
+		width: 210px;
+	}
+	.error404 .err-content h1 {
+		font-size: 120px;
+	}
+}
