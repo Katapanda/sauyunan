@@ -1,2 +1,0 @@
-# sauyunan
-Sauyunan Creation
